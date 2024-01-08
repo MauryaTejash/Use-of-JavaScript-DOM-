@@ -1,0 +1,35 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+.js-button{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    height: 35px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.is-subscribed{
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+.js-cost{
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.cal-button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 12px 2px;
+    height: 46px;
+    width: 110px;
+}

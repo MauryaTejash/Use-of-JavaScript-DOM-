@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="DomProjectCSS.css">
+</head>
+<body>
+    <p>YouTube Subscribed Button</p>
+    <button onclick="SubscribeButtton();" class="js-button">
+    Subscribe
+    </button>
+    <p>Amazon Shipping Calculator</p>
+    <p>Orders under $40 = +$10 shipping.</p>
+    <p>Orders over $40 = FREE shipping.</p>
+
+    <!-- here is 'Event' is used for the use of 'Enter' Key  -->
+    <input placeholder="Cost of order" class="js-cost" onkeydown="enterKey()">
+
+    <button onclick=" calTotal()" class="cal-button">Calculate</button>
+    <p class="js-total"></p>
+    <script src="DOM.js">
+    </script>
+</body>
+</html>
